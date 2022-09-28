@@ -9,10 +9,11 @@
 </head>
 <body>
     <section id="sub">
+        <h3>Subtração</h3>
     <ul>
         <?php
         for($i=1; $i<=10; $i++){
-            for($j=0; $j<=10; $j++){
+            for($j=1; $j<=10; $j++){
                 ?>
                 <li><?= $i?>-<?= $j; ?>=<?=($i-$j);?></li>
                 <?php
@@ -25,11 +26,12 @@
     </section>
 
     <section id="soma">
+        <h3>Soma</h3>
     <ul>
         <?php
         for($i=1; $i<=10; $i++){
             //echo "<hr>";
-            for($j=0; $j<=10; $j++){
+            for($j=1; $j<=10; $j++){
                 ?>
                 <li><?= $i?>+<?= $j; ?>=<?=($i+$j);?></li>
                 <?php
@@ -42,10 +44,11 @@
     </section>
 
     <section id="mult">
+        <h3>Multiplicação</h3>
     <ul>
         <?php
         for($i=1; $i<=10; $i++){
-            for($j=0; $j<=10; $j++){
+            for($j=1; $j<=10; $j++){
                 ?>
                 <li><?= $i?>*<?= $j; ?>=<?=$i*$j?></li>
                 <?php
@@ -58,10 +61,11 @@
     </section>
 
     <section id="div">
+        <h3>Divisão</h3>
     <ul>
         <?php
         for($i=1; $i<=10; $i++){
-            for($j=0; $j<=10; $j++){
+            for($j=1; $j<=10; $j++){
                 ?>
                 <li><?= $i?>/<?= $j; ?>=<?=number_format(($i/$j),2)?></li><!--  number_format($var, 2) mostra o numeros de casas decimais depois da virgula-->
                 <?php
