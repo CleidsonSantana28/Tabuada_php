@@ -1,0 +1,25 @@
+*{
+    padding: 2px;
+    margin: 6px;
+    font-family: arial;
+}
+#sub{
+    width: 20%;
+    height: 500px;
+    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+}
+#soma{
+    width: 20%;
+    height: 500px;
+    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+}
+#mult{
+    width: 20%;
+    height: 500px;
+    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+}
+#div{
+    width: 20%;
+    height: 500px;
+    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+}
