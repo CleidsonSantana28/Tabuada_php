@@ -1,25 +1,33 @@
-*{
-    padding: 2px;
-    margin: 6px;
+* {
+    padding: 0px;
+    margin: 4px;
     font-family: arial;
 }
-#sub{
+
+#sub {
     width: 20%;
     height: 500px;
-    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+    float: left;
+    /*colocar o <section> e forma de coluna um do lado do outro*/
 }
-#soma{
+
+#soma {
     width: 20%;
     height: 500px;
-    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+    float: left;
+    /*colocar o <section> e forma de coluna um do lado do outro*/
 }
-#mult{
+
+#mult {
     width: 20%;
     height: 500px;
-    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+    float: left;
+    /*colocar o <section> e forma de coluna um do lado do outro*/
 }
-#div{
+
+#div {
     width: 20%;
     height: 500px;
-    float: left;/*colocar o <section> e forma de coluna um do lado do outro*/
+    float: left;
+    /*colocar o <section> e forma de coluna um do lado do outro*/
 }
